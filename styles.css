@@ -1,0 +1,185 @@
+:root {
+  text-align: center;
+}
+
+body {
+  line-height: 44px;
+  text-align: center;
+  vertical-align: center;
+  height: 110vh;
+  display: flex;
+  font-family: fantasy;
+}
+
+.container {
+  height: 500px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 4px 4px grey;
+  width: 296px;
+  length: 260px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 25px 80px 45px 45px 45px 45px 45px;
+  grid-gap: 10px;
+  margin: auto;
+  background-color: #1affff;
+}
+
+.Btns {
+  background-color: black;
+}
+
+div {
+  border: 2px solid blac;
+  padding: 0.1em;
+}
+
+#heading {
+  font-family: 'Marck Script', cursive;
+  grid-column: span 4;
+  background: white;
+  border-radius: 5px;
+}
+
+#dot {
+  background-color: #ffcc00;
+  box-shadow: 3px 2px 0px;
+  border-radius: 45px;
+}
+
+#screen {
+  background: white;
+  grid-column: span 4;
+  height: 80px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+#equals {
+  grid-column: span 2;
+  background-color: #ffcc00;
+  text-align: center;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#zero {
+  grid-row: span 2;
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#ac {
+  background-color: lime;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#ac.hover {
+  color: black cursor: pointer;
+}
+
+#ce {
+  background-color: lime;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#divide {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#mult {
+  background-color: #ffcc00;
+  box-shadow: 3px 2px 0px;
+  border-radius: 45px;
+}
+
+#seven {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#eight {
+  background-color: #ffcc00;
+  box-shadow: 3px 2px 0px;
+  border-radius: 45px;
+}
+
+#nine {
+  background-color: #ffcc00;
+  box-shadow: 3px 2px 0px;
+  border-radius: 45px;
+}
+
+#minus {
+  background-color: #ffcc00;
+  box-shadow: 3px 2px 0px;
+  border-radius: 45px;
+}
+
+#plus {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#four {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#five {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#six {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#one {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#two {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#three {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+#equals {
+  background-color: #ffcc00;
+  border-radius: 45px;
+  vertical-align: center;
+  box-shadow: 3px 2px 0px;
+  ;
+}
+
+#btn {
+  background-color: black;
+  border-radius: 45px;
+  box-shadow: 3px 2px 0px;
+}
+
+.zore:hover {
+  cursor: pointer;
+  color: blue;
+}
